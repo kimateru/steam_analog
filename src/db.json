@@ -1,0 +1,94 @@
+{
+    "games": [
+        {
+            "id": 1,
+            "game_logo": "dark_souls_logo.png",
+            "game_thumbnail": "dark_souls_thumbnail.jpg",
+            "price": "59.99",
+            "title": "Dark Souls III",
+            "rating": "91%",
+            "category": ["Souls Like", "Action"]
+        },
+        {
+            "id": 2,
+            "game_logo": "god_of_war_logo.png",
+            "game_thumbnail": "god_of_war_thumbnail.jpg",
+            "price": "49.99",
+            "title": "God of War (2018)",
+            "rating": "94%",
+            "category": ["Drama", "Action"]
+        },
+        {
+            "id": 3,
+            "game_logo": "uncharted_logo.png",
+            "game_thumbnail": "uncharted_thumbnail.jpg",
+            "price": "39.99",
+            "title": "Uncharted 4: A Thief's End",
+            "rating": "93%",
+            "category": ["Action", "Adventure"]
+        },
+        {
+            "id": 4,
+            "game_logo": "witcher_3_logo.png",
+            "game_thumbnail": "witcher_3_thumbnail.jpg",
+            "price": "29.99",
+            "title": "The Witcher 3: Wild Hunt",
+            "rating": "95%",
+            "category": ["Drama", "Adventure"]
+        },
+        {
+            "id": 5,
+            "game_logo": "skyrim_logo.png",
+            "game_thumbnail": "skyrim_thumbnail.jpg",
+            "price": "39.99",
+            "title": "The Elder Scrolls V: Skyrim",
+            "rating": "92%",
+            "category": ["RPG", "Adventure"]
+        },
+        {
+            "id": 6,
+            "game_logo": "minecraft_logo.png",
+            "game_thumbnail": "minecraft_thumbnail.jpg",
+            "price": "19.99",
+            "title": "Minecraft",
+            "rating": "89%",
+            "category": ["Kids"]
+        },
+        {
+            "id": 7,
+            "game_logo": "red_dead_redemption_2_logo.png",
+            "game_thumbnail": "red_dead_redemption_2_thumbnail.jpg",
+            "price": "59.99",
+            "title": "Red Dead Redemption 2",
+            "rating": "97%",
+            "category": ["Drama", "Open World"]
+        },
+        {
+            "id": 8,
+            "game_logo": "portal_2_logo.png",
+            "game_thumbnail": "portal_2_thumbnail.jpg",
+            "price": "9.99",
+            "title": "Portal 2",
+            "rating": "98%",
+            "category": ["Labyrint", "Logical"]
+        },
+        {
+            "id": 9,
+            "game_logo": "half_life_2_logo.png",
+            "game_thumbnail": "half_life_2_thumbnail.jpg",
+            "price": "9.99",
+            "title": "Half-Life 2",
+            "rating": "96%",
+            "category": ["Life", "Rich Story"]
+        },
+        {
+            "id": 10,
+            "game_logo": "bioshock_infinite_logo.png",
+            "game_thumbnail": "bioshock_infinite_thumbnail.jpg",
+            "price": "29.99",
+            "title": "BioShock Infinite",
+            "rating": "94%",
+            "category": ["Steampunk"]
+        }
+    ]
+}
