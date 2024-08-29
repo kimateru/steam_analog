@@ -11,11 +11,11 @@ import { RiHomeLine } from 'react-icons/ri';
 import { Link } from 'react-router-dom';
 const MobileMenu = ({onClose}) => {
     return (
-        <ul className='w-full mobile-menu absolute top-[100px] left-0 z-10 px-4 flex flex-col gap-10 container mx-auto bg-white'>
+        <ul className='w-full h-[100vh] absolute top-[100px] left-0 z-10 px-4 flex flex-col gap-10 container mx-auto bg-white'>
             <Link onClick={onClose} to={'/'}><SideNavigationeMenu borderColor="bg-blue-400" text="Home" icon={<RiHomeLine className='text-blue-400 text-3xl' />} /></Link>
             <Link onClick={onClose} to={'/cart'}><SideNavigationeMenu borderColor="bg-pink-500" text="Cart" icon={<BsBasket3 className='text-pink-500 text-3xl' />} /></Link>
             <Link onClick={onClose} to={'/library'}><SideNavigationeMenu borderColor="bg-orange-500" text="Library" icon={<IoLibraryOutline className='text-orange-500 text-3xl' />} /></Link>
-            <Link onClick={onClose} to={'/shop'}><SideNavigationeMenu borderColor="bg-purple-500" text="Store" icon={<BsCart2 className='text-purple-500 text-3xl' />} /></Link>
+            <Link onClick={onClose} to={'/shop'}><SideNavigationeMenu borderColor="bg-purple-500" text="Shop" icon={<BsCart2 className='text-purple-500 text-3xl' />} /></Link>
             <div className="flex flex-col gap-5">
                 <ThemeToggle />
                 <hr className='ml-4' />

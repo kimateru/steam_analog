@@ -7,13 +7,13 @@ import Cart from './pages/Cart'
 import Shop from './pages/Shop'
 import Library from './pages/Library'
 import ShopNavbar from './components/ShopNavbar'
-
+import ProductDetail from './pages/ProductDetail'
 const App = () => {
   const [isMobile, setIsMobile] = useState(false);
 
 
   useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth <= 768);
+    const handleResize = () => setIsMobile(window.innerWidth <= 767);
     handleResize(); // Call on initial render
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
@@ -34,6 +34,7 @@ const App = () => {
             <Route path='/cart' element={<Cart />} />
             <Route path='/shop' element={<Shop />} />
             <Route path='/library' element={<Library />} />
+            <Route path='/product/:id' element={<ProductDetail />} />
           </Routes>
         </div>
       </BrowserRouter>

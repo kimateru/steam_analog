@@ -1,94 +1,133 @@
 {
-    "games": [
-        {
-            "id": 1,
-            "game_logo": "dark_souls_logo.png",
-            "game_thumbnail": "dark_souls_thumbnail.jpg",
-            "price": "59.99",
-            "title": "Dark Souls III",
-            "rating": "91%",
-            "category": ["Souls Like", "Action"]
-        },
-        {
-            "id": 2,
-            "game_logo": "god_of_war_logo.png",
-            "game_thumbnail": "god_of_war_thumbnail.jpg",
-            "price": "49.99",
-            "title": "God of War (2018)",
-            "rating": "94%",
-            "category": ["Drama", "Action"]
-        },
-        {
-            "id": 3,
-            "game_logo": "uncharted_logo.png",
-            "game_thumbnail": "uncharted_thumbnail.jpg",
-            "price": "39.99",
-            "title": "Uncharted 4: A Thief's End",
-            "rating": "93%",
-            "category": ["Action", "Adventure"]
-        },
-        {
-            "id": 4,
-            "game_logo": "witcher_3_logo.png",
-            "game_thumbnail": "witcher_3_thumbnail.jpg",
-            "price": "29.99",
-            "title": "The Witcher 3: Wild Hunt",
-            "rating": "95%",
-            "category": ["Drama", "Adventure"]
-        },
-        {
-            "id": 5,
-            "game_logo": "skyrim_logo.png",
-            "game_thumbnail": "skyrim_thumbnail.jpg",
-            "price": "39.99",
-            "title": "The Elder Scrolls V: Skyrim",
-            "rating": "92%",
-            "category": ["RPG", "Adventure"]
-        },
-        {
-            "id": 6,
-            "game_logo": "minecraft_logo.png",
-            "game_thumbnail": "minecraft_thumbnail.jpg",
-            "price": "19.99",
-            "title": "Minecraft",
-            "rating": "89%",
-            "category": ["Kids"]
-        },
-        {
-            "id": 7,
-            "game_logo": "red_dead_redemption_2_logo.png",
-            "game_thumbnail": "red_dead_redemption_2_thumbnail.jpg",
-            "price": "59.99",
-            "title": "Red Dead Redemption 2",
-            "rating": "97%",
-            "category": ["Drama", "Open World"]
-        },
-        {
-            "id": 8,
-            "game_logo": "portal_2_logo.png",
-            "game_thumbnail": "portal_2_thumbnail.jpg",
-            "price": "9.99",
-            "title": "Portal 2",
-            "rating": "98%",
-            "category": ["Labyrint", "Logical"]
-        },
-        {
-            "id": 9,
-            "game_logo": "half_life_2_logo.png",
-            "game_thumbnail": "half_life_2_thumbnail.jpg",
-            "price": "9.99",
-            "title": "Half-Life 2",
-            "rating": "96%",
-            "category": ["Life", "Rich Story"]
-        },
-        {
-            "id": 10,
-            "game_logo": "bioshock_infinite_logo.png",
-            "game_thumbnail": "bioshock_infinite_thumbnail.jpg",
-            "price": "29.99",
-            "title": "BioShock Infinite",
-            "rating": "94%",
-            "category": ["Steampunk"]
-        }
-    ]
+  "games": [
+    {
+      "id": "1",
+      "game_logo": "dark_souls_logo.png",
+      "game_thumbnail": "dark_souls_thumbnail.jpg",
+      "price": "59.99",
+      "title": "Dark Souls III",
+      "rating": "91%",
+      "category": [
+        "Souls Like",
+        "Action"
+      ],
+      "description": "Dark Souls III plunges players into a dark and twisted world full of challenging combat and deep lore. Known for its punishing difficulty, it rewards careful exploration and strategic planning. The game's intricate level design and rich storytelling make each victory feel hard-earned and satisfying."
+    },
+    {
+      "id": "2",
+      "game_logo": "god_of_war_logo.png",
+      "game_thumbnail": "god_of_war_thumbnail.jpg",
+      "price": "49.99",
+      "title": "God of War (2018)",
+      "rating": "94%",
+      "category": [
+        "Drama",
+        "Action"
+      ],
+      "description": "In God of War (2018), players step into the shoes of Kratos, a former Greek god, now navigating the world of Norse mythology with his son, Atreus. This action-packed adventure blends intense combat with a compelling narrative that explores themes of fatherhood and redemption. The game's stunning visuals and emotionally charged story have earned it critical acclaim."
+    },
+    {
+      "id": "3",
+      "game_logo": "uncharted_logo.png",
+      "game_thumbnail": "uncharted_thumbnail.jpg",
+      "price": "39.99",
+      "title": "Uncharted 4: A Thief's End",
+      "rating": "93%",
+      "category": [
+        "Action",
+        "Adventure"
+      ],
+      "description": "Uncharted 4: A Thief's End continues the thrilling adventures of Nathan Drake as he searches for a legendary pirate treasure. With its cinematic presentation, engaging story, and breathtaking action sequences, the game offers a gripping experience for fans of both action and adventure. The high production values and intricate storytelling elevate it to a standout title."
+    },
+    {
+      "id": "4",
+      "game_logo": "witcher_3_logo.png",
+      "game_thumbnail": "witcher_3_thumbnail.jpg",
+      "price": "29.99",
+      "title": "The Witcher 3: Wild Hunt",
+      "rating": "95%",
+      "category": [
+        "Drama",
+        "Adventure"
+      ],
+      "description": "The Witcher 3: Wild Hunt offers an expansive open world filled with rich lore and complex characters. Players control Geralt of Rivia as he embarks on a quest to find his adopted daughter amidst a backdrop of political intrigue and dark fantasy. The game's deep narrative and stunning visuals have made it a beloved classic in the RPG genre."
+    },
+    {
+      "id": "5",
+      "game_logo": "skyrim_logo.png",
+      "game_thumbnail": "skyrim_thumbnail.jpg",
+      "price": "39.99",
+      "title": "The Elder Scrolls V: Skyrim",
+      "rating": "92%",
+      "category": [
+        "RPG",
+        "Adventure"
+      ],
+      "description": "The Elder Scrolls V: Skyrim is an epic RPG that invites players to explore a massive open world filled with rich quests and dynamic characters. Set in a detailed fantasy universe, it offers freedom in character development and gameplay choices. The game's immersive world and engaging storyline have cemented its place as a genre-defining classic."
+    },
+    {
+      "id": "6",
+      "game_logo": "minecraft_logo.png",
+      "game_thumbnail": "minecraft_thumbnail.jpg",
+      "price": "19.99",
+      "title": "Minecraft",
+      "rating": "89%",
+      "category": [
+        "Kids"
+      ],
+      "description": "Minecraft is a sandbox game that allows players to build and explore their own worlds block by block. Its creative and open-ended gameplay appeals to players of all ages, offering endless possibilities for construction and adventure. With its simple graphics and engaging mechanics, it has become a beloved title for both kids and adults."
+    },
+    {
+      "id": "7",
+      "game_logo": "red_dead_redemption_2_logo.png",
+      "game_thumbnail": "red_dead_redemption_2_thumbnail.jpg",
+      "price": "59.99",
+      "title": "Red Dead Redemption 2",
+      "rating": "97%",
+      "category": [
+        "Drama",
+        "Open World"
+      ],
+      "description": "Red Dead Redemption 2 is an open-world epic set in the American frontier, offering a richly detailed environment and a gripping narrative. Players follow Arthur Morgan, an outlaw struggling to survive in a world that is rapidly changing. The game's breathtaking visuals and deep storytelling have made it one of the most acclaimed games of its generation."
+    },
+    {
+      "id": "8",
+      "game_logo": "portal_2_logo.png",
+      "game_thumbnail": "portal_2_thumbnail.jpg",
+      "price": "9.99",
+      "title": "Portal 2",
+      "rating": "98%",
+      "category": [
+        "Labyrint",
+        "Logical"
+      ],
+      "description": "Portal 2 is a first-person puzzle game that challenges players with innovative portal-based mechanics. It combines clever puzzles with a darkly humorous narrative, featuring memorable characters and an engaging storyline. The game's unique gameplay and witty dialogue have earned it critical praise and a dedicated fanbase."
+    },
+    {
+      "id": "9",
+      "game_logo": "half_life_2_logo.png",
+      "game_thumbnail": "half_life_2_thumbnail.jpg",
+      "price": "9.99",
+      "title": "Half-Life 2",
+      "rating": "96%",
+      "category": [
+        "Life",
+        "Rich Story"
+      ],
+      "description": "Half-Life 2 is a revolutionary first-person shooter that blends intense action with a gripping story. Players assume the role of Gordon Freeman as he fights against an alien occupation and uncovers a deep conspiracy. The game's innovative mechanics and engaging narrative have made it a landmark title in gaming history."
+    },
+    {
+      "id": "10",
+      "game_logo": "bioshock_infinite_logo.png",
+      "game_thumbnail": "bioshock_infinite_thumbnail.jpg",
+      "price": "29.99",
+      "title": "BioShock Infinite",
+      "rating": "94%",
+      "category": [
+        "Steampunk"
+      ],
+      "description": "BioShock Infinite transports players to a floating city in a steampunk-inspired alternate history. The game combines first-person shooting with a complex narrative and thought-provoking themes. Its richly detailed world and memorable characters contribute to an immersive experience that has been widely acclaimed."
+    }
+  ],
+  "cart": []
 }
